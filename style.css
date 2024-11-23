@@ -1,0 +1,17 @@
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+footer .text-left {
+    text-align: left;
+}
+
+footer .text-center {
+    text-align: center;
+}
+
+footer .text-right {
+    text-align: right;
+}
