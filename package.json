@@ -2,14 +2,16 @@
   "name": "trabajo-practica-ii",
   "version": "1.0.0",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "scss": "node-sass -o css/ scss/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Proyecto de ejemplo con Bootstrap y NPM",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",

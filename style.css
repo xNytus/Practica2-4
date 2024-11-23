@@ -1,17 +1,46 @@
-.producto {
+/* Barra de navegación */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Cards */
+.card {
     border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-footer .text-left {
-    text-align: left;
+    border-radius: 10px;
 }
 
-footer .text-center {
-    text-align: center;
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-footer .text-right {
-    text-align: right;
+.card-body {
+    padding: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Banner de la Página */
+header img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
 }
