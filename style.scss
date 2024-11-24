@@ -1,0 +1,21 @@
+
+$yellow: #f1c40f;
+$red: #e74c3c;
+$green: #2ecc71;
+
+@mixin box-style($margin, $padding, $color) {
+  margin: $margin;
+  padding: $padding;
+  background-color: $color;
+}
+.modal-content {
+  @include box-style(20px, 20px, $yellow);
+}
+
+.button-primary {
+  background-color: $red;
+  color: white;
+  &:hover {
+    background-color: $green;
+  }
+}
